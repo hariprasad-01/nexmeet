@@ -1,0 +1,66 @@
+server/storage.ts(134,7): error TS2322: Type '{ [x: number]: string; length: number; toString: () => string; toLocaleString: { (): string; (locales: string | string[], options?: (NumberFormatOptions & DateTimeFormatOptions) | undefined): string; }; ... 37 more ...; readonly [Symbol.unscopables]: { ...; }; } | null' is not assignable to type 'string[] | null'.
+  Type '{ [x: number]: string; length: number; toString: () => string; toLocaleString: { (): string; (locales: string | string[], options?: (NumberFormatOptions & DateTimeFormatOptions) | undefined): string; }; ... 37 more ...; readonly [Symbol.unscopables]: { ...; }; }' is not assignable to type 'string[]'.
+    The types returned by 'pop()' are incompatible between these types.
+      Type 'unknown' is not assignable to type 'string | undefined'.
+server/storage.ts(136,7): error TS2322: Type '{ [x: number]: string; length: number; toString: () => string; toLocaleString: { (): string; (locales: string | string[], options?: (NumberFormatOptions & DateTimeFormatOptions) | undefined): string; }; ... 37 more ...; readonly [Symbol.unscopables]: { ...; }; }' is not assignable to type 'string[]'.
+  The types returned by 'pop()' are incompatible between these types.
+    Type 'unknown' is not assignable to type 'string | undefined'.
+server/storage.ts(138,7): error TS2322: Type 'string' is not assignable to type '"pending" | "approved" | "rejected" | "none" | null'.
+server/storage.ts(139,7): error TS2322: Type 'string' is not assignable to type '"free" | "basic" | "premium" | "vip" | null'.
+server/storage.ts(141,7): error TS2322: Type '{ country?: unknown; state?: unknown; city?: unknown; coordinates?: unknown; } | null' is not assignable to type '{ country?: string | undefined; state?: string | undefined; city?: string | undefined; coordinates?: { lat: number; lng: number; } | undefined; } | null'.
+  Type '{ country?: unknown; state?: unknown; city?: unknown; coordinates?: unknown; }' is not assignable to type '{ country?: string | undefined; state?: string | undefined; city?: string | undefined; coordinates?: { lat: number; lng: number; } | undefined; }'.
+    Types of property 'country' are incompatible.
+      Type 'unknown' is not assignable to type 'string | undefined'.
+server/storage.ts(142,7): error TS2322: Type '{ genderFilter?: unknown; ageRange?: unknown; maxDistance?: unknown; verifiedOnly?: unknown; languagePreference?: unknown; } | null' is not assignable to type '{ genderFilter?: "male" | "female" | "all" | undefined; ageRange?: [number, number] | undefined; maxDistance?: number | undefined; verifiedOnly?: boolean | undefined; languagePreference?: string[] | undefined; } | null'.
+  Type '{ genderFilter?: unknown; ageRange?: unknown; maxDistance?: unknown; verifiedOnly?: unknown; languagePreference?: unknown; }' is not assignable to type '{ genderFilter?: "male" | "female" | "all" | undefined; ageRange?: [number, number] | undefined; maxDistance?: number | undefined; verifiedOnly?: boolean | undefined; languagePreference?: string[] | undefined; }'.
+    Types of property 'genderFilter' are incompatible.
+      Type 'unknown' is not assignable to type '"male" | "female" | "all" | undefined'.
+server/storage.ts(143,7): error TS2322: Type '{ [x: number]: string; length: number; toString: () => string; toLocaleString: { (): string; (locales: string | string[], options?: (NumberFormatOptions & DateTimeFormatOptions) | undefined): string; }; ... 37 more ...; readonly [Symbol.unscopables]: { ...; }; }' is not assignable to type 'string[]'.
+  The types returned by 'pop()' are incompatible between these types.
+    Type 'unknown' is not assignable to type 'string | undefined'.
+server/storage.ts(168,7): error TS2322: Type '{ [x: number]: string; length: number; toString: () => string; toLocaleString: { (): string; (locales: string | string[], options?: (NumberFormatOptions & DateTimeFormatOptions) | undefined): string; }; ... 37 more ...; readonly [Symbol.unscopables]: { ...; }; } | null' is not assignable to type 'string[] | null'.
+  Type '{ [x: number]: string; length: number; toString: () => string; toLocaleString: { (): string; (locales: string | string[], options?: (NumberFormatOptions & DateTimeFormatOptions) | undefined): string; }; ... 37 more ...; readonly [Symbol.unscopables]: { ...; }; }' is not assignable to type 'string[]'.
+    The types returned by 'pop()' are incompatible between these types.
+      Type 'unknown' is not assignable to type 'string | undefined'.
+server/storage.ts(170,7): error TS2322: Type '{ [x: number]: string; length: number; toString: () => string; toLocaleString: { (): string; (locales: string | string[], options?: (NumberFormatOptions & DateTimeFormatOptions) | undefined): string; }; ... 37 more ...; readonly [Symbol.unscopables]: { ...; }; } | null' is not assignable to type 'string[] | null'.
+  Type '{ [x: number]: string; length: number; toString: () => string; toLocaleString: { (): string; (locales: string | string[], options?: (NumberFormatOptions & DateTimeFormatOptions) | undefined): string; }; ... 37 more ...; readonly [Symbol.unscopables]: { ...; }; }' is not assignable to type 'string[]'.
+    The types returned by 'pop()' are incompatible between these types.
+      Type 'unknown' is not assignable to type 'string | undefined'.
+server/storage.ts(172,7): error TS2322: Type 'string | null' is not assignable to type '"pending" | "approved" | "rejected" | "none" | null'.
+  Type 'string' is not assignable to type '"pending" | "approved" | "rejected" | "none" | null'.
+server/storage.ts(173,7): error TS2322: Type 'string | null' is not assignable to type '"free" | "basic" | "premium" | "vip" | null'.
+  Type 'string' is not assignable to type '"free" | "basic" | "premium" | "vip" | null'.
+server/storage.ts(175,7): error TS2322: Type '{ country?: unknown; state?: unknown; city?: unknown; coordinates?: unknown; } | null' is not assignable to type '{ country?: string | undefined; state?: string | undefined; city?: string | undefined; coordinates?: { lat: number; lng: number; } | undefined; } | null'.
+  Type '{ country?: unknown; state?: unknown; city?: unknown; coordinates?: unknown; }' is not assignable to type '{ country?: string | undefined; state?: string | undefined; city?: string | undefined; coordinates?: { lat: number; lng: number; } | undefined; }'.
+    Types of property 'country' are incompatible.
+      Type 'unknown' is not assignable to type 'string | undefined'.
+server/storage.ts(176,7): error TS2322: Type '{ genderFilter?: unknown; ageRange?: unknown; maxDistance?: unknown; verifiedOnly?: unknown; languagePreference?: unknown; } | null' is not assignable to type '{ genderFilter?: "male" | "female" | "all" | undefined; ageRange?: [number, number] | undefined; maxDistance?: number | undefined; verifiedOnly?: boolean | undefined; languagePreference?: string[] | undefined; } | null'.
+  Type '{ genderFilter?: unknown; ageRange?: unknown; maxDistance?: unknown; verifiedOnly?: unknown; languagePreference?: unknown; }' is not assignable to type '{ genderFilter?: "male" | "female" | "all" | undefined; ageRange?: [number, number] | undefined; maxDistance?: number | undefined; verifiedOnly?: boolean | undefined; languagePreference?: string[] | undefined; }'.
+    Types of property 'genderFilter' are incompatible.
+      Type 'unknown' is not assignable to type '"male" | "female" | "all" | undefined'.
+server/storage.ts(177,7): error TS2322: Type '{ [x: number]: string; length: number; toString: () => string; toLocaleString: { (): string; (locales: string | string[], options?: (NumberFormatOptions & DateTimeFormatOptions) | undefined): string; }; ... 37 more ...; readonly [Symbol.unscopables]: { ...; }; } | null' is not assignable to type 'string[] | null'.
+  Type '{ [x: number]: string; length: number; toString: () => string; toLocaleString: { (): string; (locales: string | string[], options?: (NumberFormatOptions & DateTimeFormatOptions) | undefined): string; }; ... 37 more ...; readonly [Symbol.unscopables]: { ...; }; }' is not assignable to type 'string[]'.
+    The types returned by 'pop()' are incompatible between these types.
+      Type 'unknown' is not assignable to type 'string | undefined'.
+server/storage.ts(272,11): error TS2322: Type '{ id: string; createdAt: Date; user1Id: string; user2Id: string; status?: string | null | undefined; lastMessageAt?: Date | null | undefined; }' is not assignable to type '{ id: string; createdAt: Date | null; status: "active" | "blocked" | "unmatched" | null; user1Id: string; user2Id: string; lastMessageAt: Date | null; }'.
+  Types of property 'status' are incompatible.
+    Type 'string | null | undefined' is not assignable to type '"active" | "blocked" | "unmatched" | null'.
+      Type 'undefined' is not assignable to type '"active" | "blocked" | "unmatched" | null'.
+server/storage.ts(306,11): error TS2322: Type '{ id: string; timestamp: Date; swiperId: string; swipedId: string; action: string; }' is not assignable to type '{ id: string; swiperId: string; swipedId: string; action: "like" | "pass" | "super_like"; timestamp: Date | null; }'.
+  Types of property 'action' are incompatible.
+    Type 'string' is not assignable to type '"like" | "pass" | "super_like"'.
+server/storage.ts(324,11): error TS2322: Type '{ id: string; timestamp: Date; matchId: string; senderId: string; content: string; type?: string | null | undefined; readAt?: Date | null | undefined; reactions?: { [x: string]: string; } | null | undefined; }' is not assignable to type '{ id: string; type: "text" | "image" | "voice" | "video" | null; timestamp: Date | null; matchId: string; senderId: string; content: string; readAt: Date | null; reactions: { ...; } | null; }'.
+  Types of property 'type' are incompatible.
+    Type 'string | null | undefined' is not assignable to type '"text" | "image" | "voice" | "video" | null'.
+      Type 'undefined' is not assignable to type '"text" | "image" | "voice" | "video" | null'.
+server/storage.ts(353,11): error TS2322: Type '{ id: string; matchId: string; initiatorId: string; participantId: string; status?: string | null | undefined; startedAt?: Date | null | undefined; endedAt?: Date | null | undefined; duration?: number | ... 1 more ... | undefined; quality?: string | ... 1 more ... | undefined; }' is not assignable to type '{ id: string; status: "active" | "calling" | "ended" | "missed" | null; matchId: string; initiatorId: string; participantId: string; startedAt: Date | null; endedAt: Date | null; duration: number | null; quality: "premium" | ... 2 more ... | null; }'.
+  Types of property 'status' are incompatible.
+    Type 'string | null | undefined' is not assignable to type '"active" | "calling" | "ended" | "missed" | null'.
+      Type 'undefined' is not assignable to type '"active" | "calling" | "ended" | "missed" | null'.
+server/storage.ts(391,11): error TS2322: Type '{ id: string; position: number; createdAt: Date; email: string; firstName: string; lastName: string; interestedFeatures?: { [x: number]: string; length: number; toString: () => string; toLocaleString: { ...; }; ... 37 more ...; readonly [Symbol.unscopables]: { ...; }; } | null | undefined; }' is not assignable to type '{ id: string; email: string; firstName: string; lastName: string; createdAt: Date | null; interestedFeatures: string[] | null; position: number; }'.
+  Types of property 'interestedFeatures' are incompatible.
+    Type '{ [x: number]: string; length: number; toString: () => string; toLocaleString: { (): string; (locales: string | string[], options?: (NumberFormatOptions & DateTimeFormatOptions) | undefined): string; }; ... 37 more ...; readonly [Symbol.unscopables]: { ...; }; } | null | undefined' is not assignable to type 'string[] | null'.
+      Type 'undefined' is not assignable to type 'string[] | null'.
+server/storage.ts(410,11): error TS2322: Type '{ id: string; submittedAt: Date; type: string; userId: string; status?: string | null | undefined; reviewedAt?: Date | null | undefined; documents?: { [x: number]: string; length: number; ... 39 more ...; readonly [Symbol.unscopables]: { ...; }; } | null | undefined; notes?: string | ... 1 more ... | undefined; }' is not assignable to type '{ id: string; type: "id" | "photo" | "phone"; status: "pending" | "approved" | "rejected" | null; userId: string; submittedAt: Date | null; reviewedAt: Date | null; documents: string[] | null; notes: string | null; }'.
+  Types of property 'type' are incompatible.
+    Type 'string' is not assignable to type '"id" | "photo" | "phone"'.
